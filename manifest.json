@@ -32,6 +32,10 @@
     {
       "resources": ["welcome.html"],
       "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["welcome.js"],
+      "matches": ["<all_urls>"]
     }
   ]
 } 

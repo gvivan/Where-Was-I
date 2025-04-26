@@ -67,12 +67,26 @@
       font-size: 14px;
       color: #777;
     }
+    
+    .alert {
+      background-color: #ffebee;
+      border-left: 4px solid #ef5350;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 4px;
+      font-weight: bold;
+    }
   </style>
+  <script src="welcome.js"></script>
 </head>
 <body>
   <div class="header">
     <h1>Welcome to Where Was I</h1>
     <p>The extension that helps you track your progress through series and episodes on streaming platforms.</p>
+  </div>
+  
+  <div id="folderRecreatedAlert" class="alert" style="display: none;">
+    <p>The "Where Was I" folder has been automatically restored after deletion. Your episode tracking will continue working normally. Note: To permanently remove this folder, please disable or uninstall the extension instead of deleting it directly.</p>
   </div>
   
   <div class="instructions">
